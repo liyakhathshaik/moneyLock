@@ -117,7 +117,7 @@ const SignUp = () => {
 
     return (
         <>
-            <button onClick={login} className="absolute w-20 px-4 py-2 mt-6 text-white transition-colors duration-300 bg-transparent border-2 border-white rounded hover:bg-white hover:text-black top-3 right-16">Login</button>
+            <button onClick={login} className="absolute w-20 px-4 py-2 mt-6 text-black transition-colors duration-300 bg-transparent border-2 border-black rounded hover:bg-black hover:text-black top-3 right-16">Login</button>
           
             <div className="flex items-center justify-center w-full min-h-screen p-4">
                 <div className="w-full max-w-md p-6 bg-black rounded-lg shadow-lg bg-opacity-80">
