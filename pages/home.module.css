@@ -1,0 +1,110 @@
+/* Add this CSS in your global styles or a suitable CSS file */
+.loader {
+    width: 100%;
+    height: 1.5px;
+    border-radius: 5px;
+    background: #f3f3f3;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .loader::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #ff0000;
+    animation: loading 1s infinite;
+  }
+  
+  @keyframes loading {
+    0% {
+      left: -100%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+.signuploader {
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    background: #f3f3f3;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .signuploader::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #1245d0;
+    animation: signloading 1s infinite;
+  }
+  
+  @keyframes signloading {
+    0% {
+      left: -100%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+.youtubeloader {
+    width: 100%;
+    height: 1.5px;
+    position: relative;
+    background: #f3f3f3;
+    overflow: hidden;
+  }
+  
+  .youtubeloader::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #ff0000; /* YouTube red color */
+    animation: youtube-loading 1.5s infinite;
+  }
+  
+  @keyframes youtube-loading {
+    0% {
+      left: -100%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  @keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    20%, 60% {
+        transform: translateX(-10px);
+    }
+    40%, 80% {
+        transform: translateX(10px);
+    }
+}
+
+.shake {
+    animation: shake 0.5s infinite;
+}
+
+  
