@@ -119,7 +119,7 @@ const SignUp = () => {
         <>
             <button onClick={login} className="absolute w-20 px-4 py-2 mt-6 text-white transition-colors duration-300 bg-transparent border-2 border-white rounded hover:bg-white hover:text-black top-3 right-16">Login</button>
           
-            <div className="flex items-center justify-center w-full min-h-screen p-4 bg-gradient-to-r from-purple-500 to-blue-500">
+            <div className="flex items-center justify-center w-full min-h-screen p-4">
                 <div className="w-full max-w-md p-6 bg-black rounded-lg shadow-lg bg-opacity-80">
                     <div className="mt-2 text-4xl font-normal text-center text-white">SignUp</div>
                     <form onSubmit={handleSubmit}>
