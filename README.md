@@ -1,43 +1,44 @@
-here is my website link check out this:-     https://liyakhathshaik.github.io/moneyLock/
+# 💰 MoneyLock
 
+**MoneyLock** is a modern, user-friendly application designed to empower individuals to take control of their finances. Whether you're saving for a dream vacation, building an emergency fund, or simply trying to manage your expenses better, **MoneyLock** provides the structure and simplicity to help you succeed.  
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Built with the cutting-edge **Next.js** framework and hosted seamlessly on **GitHub Pages**, MoneyLock helps reduce impulsive spending by allowing users to “lock” a portion of their money for a specified duration.
 
-## Getting Started
+---
 
-First, run the development server:
+## 🚀 Features
+
+- 🔒 **Lock Your Funds**: Temporarily restrict access to a portion of your money to curb impulsive spending.
+- 🧠 **Psychological Savings Aid**: Helps build better spending habits with commitment tools.
+- 📅 **Custom Time Periods**: Set specific lock durations for different financial goals.
+- 🌐 **Fully Web-Based**: No installations required—access it directly from your browser.
+- ⚡ **Fast & Responsive**: Built with Next.js for a smooth and modern user experience.
+- 🛠️ **Open Source**: Contribute, fork, or customize it for your own needs!
+
+---
+
+## 🖼️ Screenshots
+
+*(Add screenshots here to showcase the UI and features)*
+
+---
+
+## 🛠️ Built With
+
+- [Next.js](https://nextjs.org/) – React framework for production
+- [React](https://reactjs.org/) – UI library
+- [GitHub Pages](https://pages.github.com/) – Hosting platform
+
+---
+
+## 📦 Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+node -v
+npm -v
