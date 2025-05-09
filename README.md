@@ -17,11 +17,6 @@ Built with the cutting-edge **Next.js** framework and hosted seamlessly on **Git
 
 ---
 
-## 🖼️ Screenshots
-
-*(Add screenshots here to showcase the UI and features)*
-
----
 
 ## 🛠️ Built With
 
